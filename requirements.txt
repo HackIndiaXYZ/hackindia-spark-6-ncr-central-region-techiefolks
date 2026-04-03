@@ -1,2 +1,4 @@
 gradio
 feedparser
+requests
+beautifulsoup4
