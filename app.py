@@ -219,7 +219,7 @@ with gr.Blocks(theme=gr.themes.Soft(), css="footer {visibility: hidden}") as dem
         lang_choice = gr.Dropdown(
             choices=list(LANG_MAP.keys()), 
             value="English", 
-            label="🌍 Select Language / भाषा चुनें / மொழி / భాష / ভাষা"
+            label="🌍 Select Language / भाषा चुनें / மொழி / భాష / ভাষা / மொழி / ભાષા "
         )
     
     title = gr.Markdown(TRANSLATIONS["English"]["title"])
@@ -237,7 +237,7 @@ with gr.Blocks(theme=gr.themes.Soft(), css="footer {visibility: hidden}") as dem
         )
     
     search = gr.Textbox(
-        label="Search Topic",
+        label="Search Topic / विषय / தலைப்பு / విషయం / বিষয় / தலைப்பு / વિષય",
         placeholder=TRANSLATIONS["English"]["search_placeholder"]
     )
     
